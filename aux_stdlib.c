@@ -39,7 +39,6 @@ char *aux_itoa(int n)
 	char *buffer;
 
 	buffer = malloc(sizeof(char) * (lenght + 1));
-	
 	if (buffer == 0)
 		return (NULL);
 
