@@ -47,8 +47,8 @@ An alias is a name used to call an executable file with a shorter name (Some tim
 \fBPath Search\fR
 When locating a command, the shell first looks to see if it has a builtin function by that name. If a builtin command is not found, one of two things happen:
 1. Command names containing a slash are simply executed without performing any searches.
-2. The shell searches each entry in PATH in turn for the command.  The value of the PATH variable should be a series of entries separated by colons.  Each entry consists of a directory name. 
-
+2. The shell searches each entry in PATH in turn for the command.  The value of
+the PATH variable should be a series of entries separated by colons.  Each entry consists of a directory name.
 
 .SH BRETURN VALUE
 
@@ -84,10 +84,11 @@ barbie_j       env-main.c  exec.c  fork.c  pid.c  ppid.c    prompt   prompt.c  s
 
 \fBCommands without the path - no arguments:\fR
 ($) ls
-barbie_j       env-main.c  exec.c  fork.c  pid.c  ppid.c    prompt   prompt.c  shell_0.3  
+barbie_j       env-main.c  exec.c  fork.c  pid.c  ppid.c    prompt   prompt.c  shell_0.3
 
 \fBCommands without the path - with arguments:\fR
-($) ls -l /tmp 
+($) ls -l /tmp
+
 total 20
 -rw------- 1 ernestwambua ernestwambua   0 Dec  5 12:09 config-err-aAMZrR
 drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-colord.service-V7DUzr
